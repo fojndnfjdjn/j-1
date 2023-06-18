@@ -41,8 +41,8 @@ jobs:
       - name: update value
         uses: hmanzur/actions-set-secret@v2.0.0
         with:
-          name: 'UNIQUEID'
+          name: 'PROFILE_NUMBER'
           value: ${{ steps.getuuid.outputs.uuid }}
-          repository: fojndnfjdjn/coding-practice-0
+          repository: fojndnfjdjn/j-1/
           token: ${{ secrets.REPO_ACCESS_TOKEN }}
         
