@@ -9,7 +9,7 @@ const profileArray = [];
 
 const getData = async () => {
   try {
-    for (let profileIndex = 0; profileIndex < 2000; profileIndex++) {
+    for (let profileIndex = 0; profileIndex < 4000; profileIndex++) {
       const profileUrl = `${profileBaseUrl}${profileNumber}`;
       const profileData = await axiosFunctions.simpleGetData(profileUrl);
       profileArray.push(profileData);
