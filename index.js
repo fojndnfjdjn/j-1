@@ -4,6 +4,7 @@ const axiosFunctions = require("./axios.js");
 
 const profileBaseUrl = process.env.PROFILE_BASE_URL;
 let profileNumber = parseInt(process.env.PROFILE_NUMBER, 10);
+console.log('profile number: ' + profileNumber);
 const profileArray = [];
 
 const getData = async () => {
