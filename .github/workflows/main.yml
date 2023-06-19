@@ -43,6 +43,6 @@ jobs:
         with:
           name: 'PROFILE_NUMBER'
           value: ${{ steps.getuuid.outputs.uuid }}
-          repository: fojndnfjdjn/j-1/
+          repository: fojndnfjdjn/j-1
           token: ${{ secrets.REPO_ACCESS_TOKEN }}
         
