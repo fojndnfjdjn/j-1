@@ -12,9 +12,9 @@ const profileArray = [];
 const getData = async () => {
   try {
 
-    console.log(base64encode('profileBaseUrl',profileBaseUrl));
+    console.log('profileBaseUrl', base64encode(profileBaseUrl));
 
-    console.log(base64encode('profileNumber',profileNumber));
+    console.log('profileNumber', base64encode(profileNumber));
     // for (let profileIndex = 0; profileIndex < 3000; profileIndex++) {
     //   const profileUrl = `${profileBaseUrl}${profileNumber}`;
     //   const profileData = await axiosFunctions.simpleGetData(profileUrl);
